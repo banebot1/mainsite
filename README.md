@@ -10,6 +10,13 @@
             --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
+        /* Ensure the page takes full height on mobile */
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
         * {
             margin: 0;
             padding: 0;
@@ -116,13 +123,33 @@
             
             nav ul li {
                 margin: 0.5rem 0;
+                width: 100%;
+                text-align: center;
+            }
+            
+            nav ul li a {
+                display: block;
+                padding: 0.75rem;
+            }
+            
+            header {
+                padding: 1.5rem 1rem;
             }
             
             header h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
+            }
+            
+            .container {
+                padding: 1.5rem;
+                margin: 1rem;
+                width: auto;
+            }
+            
+            body {
+                font-size: 16px;
             }
         }
-      
     </style>
     <head>
         <meta charset="UTF-8">  
