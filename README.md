@@ -165,7 +165,7 @@
     </header>   
          <nav>  
         <ul>  
-            <li><a href="https://banebot1.github.io/intermeditate/?#quick-quiz">INTERMEDIATE ACCOUNTING 2</a></li>  
+            <li><a href="https://banebot1.github.io/intermeditate/">INTERMEDIATE ACCOUNTING 2</a></li>  
             <li><a href="about.html">BUSINESS TAXATION</a></li>  
             <li><a href="contact.html">REGULATORY FRAMEWORK AND LEGAL ISSUES IN BUSINESS</a></li>  
             <li><a href="resources.html">COST ACCOUNTING AND CONTROL</a></li>
